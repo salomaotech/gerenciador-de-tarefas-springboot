@@ -1,4 +1,4 @@
-package com.salomaotech.gerenciador_de_tarefas_spring;
+package com.salomaotech.gerenciador;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

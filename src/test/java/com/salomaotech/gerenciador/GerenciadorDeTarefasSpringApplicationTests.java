@@ -1,4 +1,4 @@
-package com.salomaotech.gerenciador_de_tarefas_spring;
+package com.salomaotech.gerenciador;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.salomaotech.gerenciador_de_tarefas_spring.model;
+package com.salomaotech.gerenciador.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
