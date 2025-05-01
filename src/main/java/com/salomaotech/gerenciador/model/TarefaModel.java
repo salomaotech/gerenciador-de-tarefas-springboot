@@ -9,10 +9,10 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Entity
-public class Tarefa {
+public class TarefaModel {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
     private String titulo;
@@ -21,14 +21,6 @@ public class Tarefa {
     private LocalDateTime dataCriacao;
     private LocalDateTime dataConclusao;
     private Prioridade prioridade;
-
-    public enum Status {
-        PENDENTE, CONCLUIDA, ATRASADA
-    }
-
-    public enum Prioridade {
-        BAIXA, MEDIA, ALTA
-    }
 
     public UUID getId() {
         return id;
@@ -84,6 +76,14 @@ public class Tarefa {
 
     public void setPrioridade(Prioridade prioridade) {
         this.prioridade = prioridade;
+    }
+
+    public enum Status {
+        PENDENTE, CONCLUIDA, ATRASADA
+    }
+
+    public enum Prioridade {
+        BAIXA, MEDIA, ALTA
     }
 
 }
