@@ -1,7 +1,7 @@
 
 # gerenciador-de-tarefas-spring
 
-Aplicação Spring Boot para gerenciamento de tarefas.
+API para gerenciamento de listas de tarefas, desenvolvida com Spring Boot, permitindo criar, atualizar, listar e excluir tarefas.
 
 ## Tecnologias utilizadas
 
